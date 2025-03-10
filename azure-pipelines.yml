@@ -4,7 +4,7 @@ pool:
 trigger:
   branches:
     include:
-      - main
+      - master
 
 steps:
   - task: CopyFiles@2
